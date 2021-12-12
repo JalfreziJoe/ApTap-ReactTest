@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    'remove . .'
+    'image title .'
+    'image deal .'
+    '. . continue';
+    
+    font-family: 'Roboto';
+}
+
+.remove {
+    grid-area: remove;
+}
+
+.image {
+    grid-area: image;
+}
+
+.title {
+    grid-area: title;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.deal {
+    grid-area: deal;
+    text-align: left;
+}
+
+img {
+    width:3em;
+}
+
+.continue-button {
+    grid-area: continue;
+}
